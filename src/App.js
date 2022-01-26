@@ -7,16 +7,22 @@ import "./App.css";
 
 function App() {
   const [address, setAddress] = useState("");
+  const [coordinates, setCoordinates] = useState({ lat: null, lng: null });
 
   const handleSelect = async (value) => {
     const results = await geocodeByAddress(value);
     const ll = await getLatLng(results[0]);
     console.log(ll);
     setAddress(value);
+    setCoordinates(ll);
   };
 
   return (
     <div>
+      <p>Lat:{coordinates.lat}</p>
+      <p>Long:{coordinates.lng}</p>
+      <p>Address: {address}</p>
+
       <PlacesAutocomplete
         value={address}
         onChange={setAddress}
