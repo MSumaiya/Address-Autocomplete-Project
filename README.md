@@ -4,7 +4,7 @@
 
 I developed a SPA (Single Page Application) with React Js, which uses the Google Maps set of APIs to help users enter their physical address. Provides autocomplete suggestions from Google, and also shows a map when the user selects one. A manual form (with fields for Street, Zip code, City, Country) is provided as a fallback.
 
-Key features:
+## Key features:
 
 - A lot cleaner markup.
 - Conditionally load the Google Maps JavaScript. 
