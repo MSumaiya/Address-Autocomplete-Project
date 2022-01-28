@@ -14,10 +14,10 @@ Key features:
 - Created separate component for Typography and color variable
 
 ## How to run this app at your local machine
-Step 1: Run the following command in command prompt in your desired folder:- git clone https://github.com/MSumaiya/Address-Autocomplete-Project
-Step 2: run the follwing command in command prompt in your desired folder(where you just cloned MovieDatabase):- cd .\address-autocomplete-project
-Step 3: run the follwing command in command prompt:- npm install
-Step 4: run the follwing command in command prompt:- npm start
+- Step 1: Run the following command in command prompt in your desired folder:- git clone https://github.com/MSumaiya/Address-Autocomplete-Project
+- Step 2: run the follwing command in command prompt in your desired folder(where you just cloned MovieDatabase):- cd .\address-autocomplete-project
+- Step 3: run the follwing command in command prompt:- npm install
+- Step 4: run the follwing command in command prompt:- npm start
 
 ## Limitations/ Future Plan 
 Next time I would love to implement this project using Stencil.
