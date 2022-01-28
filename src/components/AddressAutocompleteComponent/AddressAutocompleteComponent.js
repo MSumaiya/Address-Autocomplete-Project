@@ -90,7 +90,7 @@ function AddressAutocompleteComponent() {
                         className={classes.addressBoxStyle}
                         sx={{ textAlign: "start" }}
                       >
-                        <TypographyStyle text="Address" />
+                        {address && <TypographyStyle text="Address" />}
                         <Typography
                           sx={{
                             fontSize: { lg: "1.5rem", xs: "1rem" },
