@@ -9,11 +9,12 @@ const containerStyle = {
 function GoogleMapComponent(props) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    /* googleMapsApiKey: "AIzaSyDR3E0Ko3uYrfQaqX9964woDyJ8NoDn4tg", */
     googleMapsApiKey: `${process.env.REACT_APP_GOOGLE_MAP_API}`,
   });
 
   const [map, setMap] = React.useState(null);
+
+  console.log(map)
 
   const onLoad = React.useCallback(function callback(map) {
     const bounds = new window.google.maps.LatLngBounds();
